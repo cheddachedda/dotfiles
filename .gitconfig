@@ -1,0 +1,21 @@
+[user]
+    name = Daniel Nguyen
+    email = daniel.n.q.nguyen@gmail.com
+
+[core]
+    editor = cursor --wait
+    autocrlf = input
+    safecrlf = true
+    pager = less -F
+
+[init]
+    defaultBranch = main
+
+[pull]
+    rebase = true
+
+[push]
+    default = current
+
+[commit]
+    verbose = true

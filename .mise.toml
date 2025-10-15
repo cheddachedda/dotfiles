@@ -1,0 +1,6 @@
+[tools]
+ruby = "latest"
+nodejs = "latest"
+
+[settings]
+asdf_compat = true
