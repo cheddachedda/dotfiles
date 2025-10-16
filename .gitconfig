@@ -6,7 +6,7 @@
   editor = cursor --wait
   autocrlf = input
   safecrlf = true
-  pager = less -F
+  pager = less -F -X
 
 [init]
   defaultBranch = main
