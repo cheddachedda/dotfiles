@@ -1,21 +1,22 @@
 [user]
-    name = Daniel Nguyen
-    email = daniel.n.q.nguyen@gmail.com
+  name = Daniel Nguyen
+  email = daniel.n.q.nguyen@gmail.com
 
 [core]
-    editor = cursor --wait
-    autocrlf = input
-    safecrlf = true
-    pager = less -F
+  editor = cursor --wait
+  autocrlf = input
+  safecrlf = true
+  pager = less -F
 
 [init]
-    defaultBranch = main
+  defaultBranch = main
 
 [pull]
-    rebase = true
+  rebase = true
 
 [push]
-    default = current
+  default = current
 
 [commit]
-    verbose = true
+  verbose = true
+  template = ~/.dotfiles/.gitmessage
